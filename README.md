@@ -147,44 +147,98 @@ Certificates & leaderboards boost motivation
 Structured dashboards improve usability & security
 
 📊 Dashboards & Outputs
-Admin Dashboard
 
-User statistics
+SkillForge provides beautifully structured, role-based dashboards with clear analytics and easy navigation.
 
-Exams & content overview
+🛡️ Admin Dashboard
 
-Platform-wide reporting
+The Admin gets full control over the platform with powerful analytics.
 
-Teacher Dashboard
+Features:
 
-Create exams
+📈 User Statistics (Admins, Teachers, Students)
 
-Upload notes
+📚 Exam & Content Overview
 
-View student performance
+🗂️ Course, Notes & Material Management
 
-Leaderboard management
+🧾 Platform-Wide Reporting & Logs
 
-Student Dashboard
+🧑‍💼 Add / Remove / Manage Users
 
-Study materials
+🔐 Control Access & Permissions
 
-Exams & instant results
+👨‍🏫 Teacher Dashboard
 
-Certificates
+Teachers get tools to manage exams, study materials, and track student progress.
 
-Ranking display
+Features:
 
-Generated Outputs
+📝 Create & Manage Exams
 
-PDF Certificates
+📤 Upload Notes / Study Material
 
-Performance Graphs
+📊 View Student Performance & Attempts
 
-Ranked Leaderboards
+🏆 Leaderboard Management
 
-Downloadable Notes
+📂 Course Material Organization
 
+🎓 Student Dashboard
+
+Students get a clean learning interface with study content and instant exam feedback.
+
+Features:
+
+📘 Study Materials & Notes
+
+🖊️ Attempt Exams
+
+⚡ Instant Results & Score Breakdown
+
+🎖️ Download Certificates
+
+🏅 Ranking & Leaderboard Display
+
+📜 Exam History & Progress Tracking
+
+📤 Generated Outputs
+
+SkillForge automatically produces downloadable and dynamic outputs.
+
+1️⃣ PDF Certificates
+
+🎓 Auto-generated certificate
+
+🔢 Unique Certificate ID
+
+📌 QR Code for verification
+
+🖨️ Printable PDF format
+
+2️⃣ Performance Graphs
+
+📈 Marks comparison
+
+🔁 Attempt history
+
+📊 Topic-wise score visualization
+
+3️⃣ Ranked Leaderboards
+
+🏆 Weekly and Monthly rankings
+
+🏅 Performance-based sorting
+
+🎯 Motivational scoring system
+
+4️⃣ Downloadable Notes
+
+📘 Teacher-uploaded study material
+
+⬇️ Available in PDF, Docs, or Text formats
+
+🗂️ Organized course-wise
 ▶️ How to Run This Project
 1. Clone Repository
 git clone <https://github.com/Suryansh-Dhama/SkillForge-AI-Driven-Adaptive-Learning-and-Exam-Generator.git>
