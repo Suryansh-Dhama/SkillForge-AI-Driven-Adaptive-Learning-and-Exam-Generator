@@ -1,247 +1,73 @@
-SkillForge – AI-Driven Adaptive Learning & Exam Generator
-📌 One-Line Summary
+# Welcome to your Lovable project
 
-A full-stack AI-enhanced platform that delivers personalized learning, automated exams, instant evaluation, and certificate generation for Students, Teachers, and Admins.
+## Project info
 
-📚 Project Overview
+**URL**: https://lovable.dev/projects/d04df506-adc5-4c43-a015-d1f020a070d4
 
-SkillForge is an intelligent learning and examination system built to modernize digital education.
-It provides:
+## How can I edit this code?
 
-Teachers → a simplified way to create exams, upload study material, and track performance
+There are several ways of editing your application.
 
-Students → structured learning content, adaptive exams, instant results, and certificates
+**Use Lovable**
 
-Admins → complete control over platform users, courses, analytics, and content
+Simply visit the [Lovable Project](https://lovable.dev/projects/d04df506-adc5-4c43-a015-d1f020a070d4) and start prompting.
 
-The system emphasizes automation, scalability, and user-friendly experience, making online learning faster, smarter, and more organized.
+Changes made via Lovable will be committed automatically to this repo.
 
-🚧 Problem Statement
+**Use your preferred IDE**
 
-Traditional e-learning platforms suffer from:
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Manual evaluation taking too much time
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-No personalized learning or adaptive content
+Follow these steps:
 
-Lack of automated certificate generation
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Poorly organized study materials
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Inefficient exam management for teachers
+# Step 3: Install the necessary dependencies.
+npm i
 
-Limited analytics for Admins, Teachers, and Students
-
-SkillForge solves all these problems through automation, structured dashboards, real-time evaluation, and streamlined learning management.
-
-🗂 Dataset & Database Design
-
-SkillForge uses a PostgreSQL relational database structured with Prisma ORM.
-
-Main Tables
-
-Users (Admin, Teacher, Student)
-
-Courses
-
-Notes / Study Material
-
-Exams
-
-Questions & Options
-
-Exam Attempts
-
-Certificates
-
-Leaderboard Records
-
-All data grows dynamically as users interact with the system.
-
-🛠️ Tools & Technologies Used
-Frontend
-
-React (Vite)
-
-TailwindCSS
-
-React Router
-
-Backend
-
-Node.js + Express
-
-TypeScript
-
-JWT + bcrypt for Authentication
-
-Prisma ORM (PostgreSQL)
-
-Other Technologies
-
-EJS + Puppeteer (PDF Certificate Generator)
-
-Git & GitHub (Version Control)
-
-⚙️ Methods & System Workflow
-1️⃣ Role-Based Authentication
-
-Separate portals for Admin, Teacher, and Student
-
-Secure login using JWT Tokens + bcrypt hashing
-
-2️⃣ Exam Creation and Management
-
-Teachers create MCQ exams
-
-Questions, options, and correct answers stored in PostgreSQL
-
-3️⃣ Auto Evaluation System
-
-Student submits exam
-
-Backend instantly checks answers
-
-Evaluates score, saves attempt history, updates leaderboard
-
-4️⃣ Smart Certificate Generator
-
-If score ≥ 90%, student receives:
-
-Auto-generated PDF certificate
-
-Unique Certificate ID
-
-QR Code verification
-
-5️⃣ Personalized Dashboards
-
-Each role gets role-specific analytics:
-
-Admin: platform stats, user overview, course controls
-
-Teacher: exam creation, student results, leaderboards
-
-Student: notes, exams, attempt results, downloadable certificates
-
-6️⃣ Leaderboard System
-
-Weekly & monthly rankings
-
-Ranking based on exam performance
-
-7️⃣ Content Management (CMS)
-
-Teachers upload notes
-
-Students can download or view study materials
-
-💡 Key Insights
-
-Automation reduces 80% of manual evaluation work
-
-Students perform better with instant feedback
-
-Certificates & leaderboards boost motivation
-
-Structured dashboards improve usability & security
-
-📊 Dashboards & Outputs
-Admin Dashboard
-
-User statistics
-
-Exams & content overview
-
-Platform-wide reporting
-
-Teacher Dashboard
-
-Create exams
-
-Upload notes
-
-View student performance
-
-Leaderboard management
-
-Student Dashboard
-
-Study materials
-
-Exams & instant results
-
-Certificates
-
-Ranking display
-
-Generated Outputs
-
-PDF Certificates
-
-Performance Graphs
-
-Ranked Leaderboards
-
-Downloadable Notes
-
-▶️ How to Run This Project
-1. Clone Repository
-git clone <https://github.com/Suryansh-Dhama/SkillForge-AI-Driven-Adaptive-Learning-and-Exam-Generator.git>
-
-2. Install Frontend
-cd frontend
-npm install
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+```
 
-3. Install Backend
-cd backend
-npm install
-npx prisma migrate dev
-npm run dev
+**Edit a file directly in GitHub**
 
-4. Localhost
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Frontend → http://localhost:8080/
+**Use GitHub Codespaces**
 
-Backend → http://192.168.1.106:8080/
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-🏁 Results & Conclusion
+## What technologies are used for this project?
 
-SkillForge delivers a complete smart learning ecosystem, combining:
+This project is built with:
 
-Automated exams
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Instant evaluation
+## How can I deploy this project?
 
-Study material management
+Simply open [Lovable](https://lovable.dev/projects/d04df506-adc5-4c43-a015-d1f020a070d4) and click on Share -> Publish.
 
-Certificate creation
+## Can I connect a custom domain to my Lovable project?
 
-Leaderboard rankings
+Yes, you can!
 
-Personalized dashboards
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-The system dramatically improves learning efficiency, reduces manual workload, and provides a scalable solution for modern digital education.
-
-🚀 Future Enhancements
-
-AI-based automatic question generation
-
-Adaptive learning using ML algorithms
-
-Integrated video lectures & live classes
-
-Payment gateway for premium courses
-
-Voice-based AI tutor
-
-Gamification (badges, streaks, rewards)
-
-Mobile App version
-
-👤 Author & Contact
-
-Name: Suryansh
-Role: Full Stack Developer (React + Node + PostgreSQL)
-Email: ydvryo@gmail.com
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
